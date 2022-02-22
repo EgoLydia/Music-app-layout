@@ -16,3 +16,122 @@ body {
 p {
   margin: 0;
 }
+
+@media (min-width: 1024px) {
+  li {
+    display: flex;
+    padding: 0 20px;
+    min-height: 50px;
+  }
+
+  li p {
+    flex: 0 0 25%;
+  }
+
+  li span.catty-cloud {
+    border: 1px solid black;
+    font-size: 0.6em;
+    padding: 3px;
+  }
+
+  li:nth-child(2n) {
+    background-color: #f2f2f2;
+  }
+  main {
+    flex: 1 0 auto;
+    display: flex;
+  }
+
+  aside {
+    background-color: #f2f2f2;
+    flex: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  footer {
+    flex: 0 0 90px;
+    padding: 30px;
+    margin-top: auto;
+    color: #fff;
+    background-color: rgba(61, 100, 158, 0.9);
+    display: flex;
+  }
+
+  .content {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+  }
+
+  .music-head {
+    flex: 0 0 280px;
+    display: flex;
+    padding: 40px;
+    background-color: #4e4e4e;
+  }
+
+  .catty {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 50px;
+  }
+
+  .music-controls {
+    margin-top: auto;
+    font-weight: 300;
+    display: flex;
+    margin-right: 0;
+    color: white;
+  }
+
+  .icon {
+    margin-left: 20px;
+  }
+
+  .album-text {
+    font-size: 1.8em;
+    margin: 0 0 10px;
+  }
+
+  .album-subtext {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+
+  .music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    padding: 5px 10px 0px;
+  }
+
+  .music-play {
+    margin-top: auto;
+    padding-left: 30px;
+    line-height: 3em;
+  }
+
+  .footer-img {
+    width: 5%;
+  }
+
+  .footer-icon {
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+  }
+
+  .footer-icon p {
+    padding-left: 100px;
+    font-size: 1.5em;
+    padding-right: 30px;
+  }
+}
+
