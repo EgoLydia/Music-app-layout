@@ -90,12 +90,11 @@ p {
     display: flex;
     margin-right: 0;
     color: white;
-  }
-
-  .icon {
+    font-size:1em;}
+.icon{
     margin-left: 20px;
-  }
-
+    margin-right: 20px;
+}
   .album-text {
     font-size: 1.8em;
     margin: 0 0 10px;
@@ -103,8 +102,9 @@ p {
 
   .album-subtext {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 300;
+F    line-height: 20px;
   }
 
   .music-list {
@@ -210,6 +210,12 @@ p {
   li:nth-child(2n) {
     background-color: #f2f2f2;
   }
+
+  .icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
   footer {
     margin-top: auto;
