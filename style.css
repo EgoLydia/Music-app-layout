@@ -140,28 +140,28 @@ p {
     display: none;
   }
 
-  .footer-img{
-      display: none;
+  .footer-img {
+    display: none;
   }
 
-  .album-subtext{
-      display: none;
+  .album-subtext {
+    display: none;
   }
 
-  .catty-cloud{
-      display: none;
+  .catty-cloud {
+    display: none;
   }
 
-  .artist-name{
-      display:none;
+  .artist-name {
+    display: none;
   }
 
-  .ri-repeat-line{
-      display: none;
+  .ri-repeat-line {
+    display: none;
   }
 
-  .ri-shuffle-line{
-      display: none;
+  .ri-shuffle-line {
+    display: none;
   }
 
   .music-head {
@@ -205,8 +205,8 @@ p {
     flex: 0 0 40%;
   }
 
-  .number{
-      margin-left: 10px;
+  .number {
+    margin-left: 10px;
   }
 
   li:nth-child(2n) {
@@ -229,15 +229,15 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .minute{
-      margin-left: 10em;
+  .minute {
+    margin-left: 10em;
   }
 
-  .icon1{
-      margin: 20px;
+  .icon1 {
+    margin: 20px;
   }
   footer {
-    /* flex: 0 0 90px; */
+    flex: 0 0 90px;
     margin-top: auto;
     color: #fff;
     background-color: rgba(61, 100, 158, 0.9);
