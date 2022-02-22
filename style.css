@@ -3,22 +3,23 @@ body {
   height: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #222;
-  font-size: 0.9em;
-}
 
 p {
   margin: 0;
 }
 
 @media (min-width: 1024px) {
-  li {
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #222;
+        font-size: 0.9em;
+      }
+      
+    li {
     display: flex;
     padding: 0 20px;
     min-height: 50px;
@@ -136,7 +137,17 @@ p {
 }
 
 @media (max-width: 600px) {
-  aside {
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #222;
+        font-size: 0.9em;
+      }
+
+    aside {
     display: none;
   }
 
@@ -164,32 +175,24 @@ p {
     display: none;
   }
 
-  .music-head {
-    background-color: #4e4e4e;
-    color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
+  .music-head{
+      text-align: center;
+      background-color: #4e4e4e;
+      color: white;
+      padding-top: 30px;
+      padding-bottom: 30px;
   }
 
-  .music-head img {
-    margin-top: 30px;
-    width: 50%;
+  .music-controls{
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+
   }
 
   .album-text {
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
-  }
-
-  .music-controls {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 0.9em;
     padding-top: 20px;
   }
 
@@ -201,27 +204,21 @@ p {
     padding: 15px;
   }
 
-  li p {
-    flex: 0 0 40%;
-  }
-
-  .number {
-    margin-left: 10px;
+  .minute {
+    margin-left: auto;
   }
 
   li:nth-child(2n) {
     background-color: #f2f2f2;
   }
 
-  .footer-icon {
+ footer {
+    margin-top: auto;
+    color: #fff;
+    background-color: rgba(61, 100, 158, 0.9);
     display: flex;
-    margin: auto;
-    margin-right: 0;
-  }
-
-  .footer-icon p {
-    font-size: 1.5em;
-  }
+    padding: 30px;
+  } 
 
   .music-play {
     margin-top: auto;
@@ -229,19 +226,21 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .minute {
-    margin-left: 10em;
+  .footer-icon {
+    display: flex;
+    margin: auto;
+    margin-right: 0;
   }
-
+  .footer-icon p {
+    font-size: 1.5em;
+  }
   .icon1 {
     margin: 20px;
+  } 
+
+
+  .music-head img{
+      /* width: 50%; */
   }
-  footer {
-    /* flex: 0 0 90px; */
-    margin-top: auto;
-    color: #fff;
-    background-color: rgba(61, 100, 158, 0.9);
-    display: flex;
-    padding: 20px;
-  }
+
 }
