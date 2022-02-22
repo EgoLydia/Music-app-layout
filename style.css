@@ -135,3 +135,115 @@ p {
   }
 }
 
+@media (max-width: 600px) {
+  aside {
+    display: none;
+  }
+
+  .footer-img{
+      display: none;
+  }
+
+  .album-subtext{
+      display: none;
+  }
+
+  .catty-cloud{
+      display: none;
+  }
+
+  .artist-name{
+      display:none;
+  }
+
+  .ri-repeat-line{
+      display: none;
+  }
+
+  .ri-shuffle-line{
+      display: none;
+  }
+
+  .music-head {
+    background-color: #4e4e4e;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .music-head img {
+    margin-top: 30px;
+    width: 50%;
+  }
+
+  .album-text {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+  }
+
+  .music-controls {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 0.9em;
+    padding-top: 20px;
+  }
+
+  li {
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: 10px;
+  }
+
+  li p {
+    flex: 0 0 40%;
+  }
+
+  li:nth-child(2n) {
+    background-color: #f2f2f2;
+  }
+
+  .music-list {
+    padding: 0;
+    margin-right: 50px;
+  }
+
+  .footer-icon {
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+  }
+
+  .footer-icon p {
+    font-size: 1.5em;
+  }
+
+  .music-play {
+    margin-top: auto;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .minute{
+      margin-left: 10em;
+  }
+
+  .icon1{
+      margin: 20px;
+  }
+  footer {
+    flex: 0 0 90px;
+    margin-top: auto;
+    color: #fff;
+    background-color: rgba(61, 100, 158, 0.9);
+    display: flex;
+    padding: 20px;
+  }
+}
