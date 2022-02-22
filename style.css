@@ -3,23 +3,22 @@ body {
   height: 100%;
 }
 
-
 p {
   margin: 0;
 }
 
 @media (min-width: 1024px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        background-color: #fff;
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #222;
-        font-size: 0.9em;
-      }
-      
-    li {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+    font-size: 0.9em;
+  }
+
+  li {
     display: flex;
     padding: 0 20px;
     min-height: 50px;
@@ -27,6 +26,7 @@ p {
 
   li p {
     flex: 0 0 25%;
+    padding: 25px;
   }
 
   li span.catty-cloud {
@@ -137,17 +137,17 @@ p {
 }
 
 @media (max-width: 600px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        background-color: #fff;
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #222;
-        font-size: 0.9em;
-      }
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+    font-size: 0.9em;
+  }
 
-    aside {
+  aside {
     display: none;
   }
 
@@ -175,19 +175,18 @@ p {
     display: none;
   }
 
-  .music-head{
-      text-align: center;
-      background-color: #4e4e4e;
-      color: white;
-      padding-top: 30px;
-      padding-bottom: 30px;
+  .music-head {
+    text-align: center;
+    background-color: #4e4e4e;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
-  .music-controls{
-      display: flex;
-      justify-content: center;
-      padding-top: 30px;
-
+  .music-controls {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
   }
 
   .album-text {
@@ -212,13 +211,13 @@ p {
     background-color: #f2f2f2;
   }
 
- footer {
+  footer {
     margin-top: auto;
     color: #fff;
     background-color: rgba(61, 100, 158, 0.9);
     display: flex;
     padding: 30px;
-  } 
+  }
 
   .music-play {
     margin-top: auto;
@@ -236,11 +235,9 @@ p {
   }
   .icon1 {
     margin: 20px;
-  } 
-
-
-  .music-head img{
-      /* width: 50%; */
   }
 
+  .music-head img {
+    /* width: 50%; */
+  }
 }
